@@ -1,1 +1,63 @@
 /* Here is your custom css styles. */
+.bg-color {
+    background-image: linear-gradient(to right, #2196F3 0%, #1E88E5 100%);
+}
+
+.bg-cover:after {
+    background: linear-gradient(45deg, rgba(33, 150, 243, 0.75) 0%, rgba(30, 136, 229, 0.65) 100%) !important;
+}
+
+/* 指导教师团队页面样式 */
+.teacher-team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.teacher-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.teacher-card:hover {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.teacher-card .teacher-name {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+}
+
+/* 确保页面内容在header下方 */
+.layout-page {
+    padding-top: 64px; 
+}
